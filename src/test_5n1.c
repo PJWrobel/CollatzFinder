@@ -13,7 +13,9 @@ int epoch(int n) {
 
 int main(){
     for(int i=1; i<1000; i++) {
-        int n = i, n2 = n, j;
+        int n = i;
+        int n2 = n;
+        int j;
         printf("%d mod3 %d | ", n, n%3);
         for(j=0;n!=1;j++) {
             //printf("-> %d ", n);
